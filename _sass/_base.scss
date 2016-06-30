@@ -202,7 +202,7 @@ section {
   justify-content: center;
   align-items: center;
 
-  $colors: white, #E0E0E0, #EAEAEA, #EDEDED, #E0E0E0, #E5E5E5;
+  $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #dcdcdc;
   @for $i from 1 through length($colors) {
     &:nth-child(#{$i}) {
       background: nth($colors, $i)
@@ -214,6 +214,7 @@ section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .nav {
@@ -235,7 +236,7 @@ section:nth-child(2) {
     transition: all 0.15s ease-out;
   }
   &__title {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 300;
     margin: 0 0 0.25em;
     width: 300px;
@@ -263,8 +264,8 @@ section:nth-child(2) {
     &:after {
       content: '';
       display: block;
-      border-left: 2px solid #e0e0e0;
-      border-top: 2px solid #e0e0e0;
+      border-left: 2px solid #d2d2d2;
+      border-top: 2px solid #d2d2d2;
       height: 250px;
       width: 20px;
       position: absolute;
@@ -334,6 +335,38 @@ section:nth-child(2) {
 
 .section .row {
     margin-bottom: 30px;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+.site-header, .section-title {
+  display: none;
+}
+
+/*Responsive utilities*/
+
+@media screen and (max-width: 1000px) {
+  .nav__wrapper {
+    display: none;
+  }
+
+  .site-header {
+    display: block;
+  }
+
+  section {
+    display: block;
+    height: auto;
+  }
+
+  .section-title {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 800px) {
 }
 
 
