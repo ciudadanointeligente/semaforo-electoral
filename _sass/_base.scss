@@ -213,7 +213,7 @@ section {
 section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
-    background-size: 100%;
+    background-size: 88%;
     background-repeat: no-repeat;
 }
 
@@ -337,12 +337,42 @@ section:nth-child(2) {
     margin-bottom: 30px;
 }
 
+#section1 .row {
+    margin-bottom: 0px;
+}
+
 b, strong {
     font-weight: 500;
 }
 
 .site-header, .section-title {
   display: none;
+}
+
+/*Denuncia*/
+
+.denuncia {
+    background: $red;
+    color: white;
+    height: 100vh;
+    padding: 130px 15px;
+}
+
+.denuncia h2 {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.denuncia a.btn {
+    background: white;
+    width: 100%;
+    border-bottom: 3px solid #FFA9A7;
+    color: $red;
+}
+
+.denuncia a.btn:hover {
+    background: darken(white,5%);
+    border-bottom: 3px solid darken(white,5%);
 }
 
 /*Responsive utilities*/
