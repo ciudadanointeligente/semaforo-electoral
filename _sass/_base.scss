@@ -204,6 +204,10 @@ pre {
   text-shadow: 0px 0px 10px white;
 }
 
+.light {
+    font-weight: 200;
+}
+
 /*Menu*/
 
 .wrapper {
@@ -234,9 +238,9 @@ section {
 section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
-    background-size: 60%;
+    background-size: 65%;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: center bottom;
     padding: 0px 0;
 }
 
@@ -340,6 +344,17 @@ section:nth-child(2) {
 
 }
 
+.nav li:first-child:after {
+    border-top: none;
+}
+
+a .nav__counter {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid #ccc;
+}
+
 .no {
   color: #F9524E;
 }
@@ -350,9 +365,9 @@ section:nth-child(2) {
 
 .tag {
     text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -370,6 +385,10 @@ b, strong {
 
 .site-header, .section-title {
   display: none;
+}
+
+p.bajada {
+    font-size: 14px;
 }
 
 /*Denuncia*/
@@ -398,7 +417,7 @@ b, strong {
 .denuncia a.btn {
     background: white;
     width: 100%;
-    border-bottom: 3px solid #FFA9A7;
+    border-bottom: 2px solid #FFA9A7;
     color: $red;
 }
 
