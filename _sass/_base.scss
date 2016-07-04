@@ -244,6 +244,22 @@ section:nth-child(2) {
     padding: 0px 0;
 }
 
+section:nth-child(3) {
+    border-left: 6px solid $red;
+}
+
+section:nth-child(4) {
+    border-left: 6px solid $orange;
+}
+
+section:nth-child(5) {
+    border-left: 6px solid $yellow;
+}
+
+section:nth-child(6) {
+    border-left: 6px solid $green;
+}
+
 .nav {
   &__wrapper {
     position: fixed;
@@ -406,7 +422,7 @@ p.bajada {
 }
 
 .denuncia h2 {
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 100;
     margin-bottom: 0;
 }
@@ -443,9 +459,14 @@ p.bajada {
     display: block;
   }
 
+  section:nth-child(2) {
+    background-image: none;
+  }
+
   #section1 h1 {
     display: none;
   }
+
 
   .section-title {
     display: initial;
