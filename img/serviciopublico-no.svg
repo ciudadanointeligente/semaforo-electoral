@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="120px" viewBox="0 0 160 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="Group-18" transform="translate(11.000000, 16.000000)">
+                <g id="Group-12-Copy" transform="translate(64.567742, 73.632653)" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1.38495896,13.9594169 L1.38495896,0.490029155" id="Line"></path>
+                    <path d="M63.586066,13.9594169 L63.586066,0.490029155" id="Line-Copy-12"></path>
+                </g>
+                <path d="M61.8774194,73.6326531 L131.877524,73.6326531" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-82" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="1.79354839" y="20.6530612" width="131.825806" height="12.5714286"></rect>
+                <polygon id="Rectangle-82" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="7.17419355 0 139 0 131.825806 12.5714286 0 12.5714286"></polygon>
+                <path d="M9.41612903,13.0204082 L9.41612903,87.8964215" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M67.7064516,13.0204082 L67.7064516,74.0816327" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M125.996774,13.0204082 L125.996774,74.0816327" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-83" fill="#F9524E" x="78.0193548" y="46.6938776" width="46.6322581" height="25.1428571"></rect>
+                <rect id="Rectangle-83" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" x="73.5354839" y="42.2040816" width="46.6322581" height="25.1428571"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

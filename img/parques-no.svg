@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="120px" viewBox="0 0 160 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="Group-32-Copy" transform="translate(5.000000, 3.000000)">
+                <g id="Group-13">
+                    <polygon id="Path-449" fill="#F9524E" transform="translate(39.377956, 48.346185) scale(-1, 1) translate(-39.377956, -48.346185) " points="38.7867099 5 17.6355442 37.6570424 27.6219697 37.6570424 8.71879444 67.4484309 19.0913087 67.4484309 5 91.69237 73.7559129 91.69237 59.7707387 67.4484309 70.8780542 67.4484309 51.2258684 37.6570424 61.3092782 37.6570424"></polygon>
+                    <polygon id="Path-449" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(34.377956, 43.346185) scale(-1, 1) translate(-34.377956, -43.346185) " points="33.7867099 0 12.6355442 32.6570424 22.6219697 32.6570424 3.71879444 62.4484309 14.0913087 62.4484309 3.65446004e-13 86.69237 68.7559129 86.69237 54.7707387 62.4484309 65.8780542 62.4484309 46.2258684 32.6570424 56.3092782 32.6570424"></polygon>
+                    <polyline id="Path-450" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="28.3464061 86.5613445 28.3464061 110.100535 40.2382202 110.100535 40.2382202 86.5613445"></polyline>
+                </g>
+                <g id="Group-12-Copy" transform="translate(79.177515, 71.137143)" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1.5443787,39.5457143 L1.5443787,24.5457143" id="Line"></path>
+                    <path d="M36.9053254,39.5457143 L36.9053254,24.5457143" id="Line-Copy-12"></path>
+                    <path d="M3.5443787,23.5157369 L3.5443787,0.515736896" id="Line-Copy-11"></path>
+                    <path d="M34.9053254,23.5157369 L34.9053254,0.515736896" id="Line-Copy-10"></path>
+                </g>
+                <path d="M76.5,73.5 L120.602154,73.5" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M76.5,81.5 L120.602154,81.5" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M72,95 L127,95" id="Line" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
