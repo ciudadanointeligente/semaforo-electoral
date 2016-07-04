@@ -200,8 +200,7 @@ pre {
 }
 
 .hero {
-  padding: 50px 0;
-  text-shadow: 0px 0px 10px white;
+  padding: 50px 15px;
 }
 
 .light {
@@ -461,6 +460,7 @@ p.bajada {
 
   section:nth-child(2) {
     background-image: none;
+    background: $green;
   }
 
   #section1 h1 {
