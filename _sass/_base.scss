@@ -222,7 +222,7 @@ section {
   font-size: 18px;
   font-weight: 100;
   background-color: #22A7F0;
-  padding: 90px 0;
+  padding: 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,6 +242,22 @@ section:nth-child(2) {
     background-repeat: no-repeat;
     background-position: center bottom;
     padding: 0px 0;
+}
+
+section:nth-child(3) {
+    border-left: 6px solid $red;
+}
+
+section:nth-child(4) {
+    border-left: 6px solid $orange;
+}
+
+section:nth-child(5) {
+    border-left: 6px solid $yellow;
+}
+
+section:nth-child(6) {
+    border-left: 6px solid $green;
 }
 
 .nav {
@@ -337,6 +353,7 @@ section:nth-child(2) {
         height: 100px;
         opacity: 1;
         overflow: visible;
+        margin-top: 10px;
       }
     }
 
@@ -405,9 +422,9 @@ p.bajada {
 }
 
 .denuncia h2 {
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 100;
-    margin-top: -15px;
+    margin-bottom: 0;
 }
 
 .denuncia img {
@@ -419,6 +436,7 @@ p.bajada {
     width: 100%;
     border-bottom: 2px solid #FFA9A7;
     color: $red;
+    padding: 10px 13px 14px;
 }
 
 .denuncia a.btn:hover {
@@ -441,8 +459,21 @@ p.bajada {
     display: block;
   }
 
+  section:nth-child(2) {
+    background-image: none;
+  }
+
+  #section1 h1 {
+    display: none;
+  }
+
+
   .section-title {
     display: initial;
+  }
+
+  .denuncia {
+    display: none;
   }
 }
 
