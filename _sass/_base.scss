@@ -37,6 +37,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+h1 {
+    font-weight: 100;
+}
+
+h4 {
+    line-height: 26px;
+}
 
 
 /**
@@ -182,6 +189,21 @@ pre {
     }
 }
 
+/*Home*/
+
+#home .nav__body {
+    text-shadow: 0px 0px 10px white;
+    width: auto;
+    max-width: 520px;
+    height: 70px;
+    font-weight: 300;
+}
+
+.hero {
+  padding: 50px 0;
+  text-shadow: 0px 0px 10px white;
+}
+
 /*Menu*/
 
 .wrapper {
@@ -193,10 +215,10 @@ pre {
 }
 
 section {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 100;
   background-color: #22A7F0;
-
+  padding: 90px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,8 +234,10 @@ section {
 section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
-    background-size: 88%;
+    background-size: 60%;
     background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 0px 0;
 }
 
 .nav {
@@ -354,12 +378,21 @@ b, strong {
     background: $red;
     color: white;
     height: 100vh;
-    padding: 130px 15px;
+    padding: 40px 15px;
+}
+
+.denuncia p {
+    font-size: 14px;
 }
 
 .denuncia h2 {
     font-size: 45px;
     font-weight: 100;
+    margin-top: -15px;
+}
+
+.denuncia img {
+    margin: 20px 0;
 }
 
 .denuncia a.btn {
