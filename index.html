@@ -63,127 +63,19 @@ layout: default
     </section>
 
     <section class="section section2" id="section2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="section-title">Precampaña</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/pago-no.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Recibir fondos o aportes (Los aportes sólo se pueden hacer hacia la cuenta corriente única de los candidatos las que se abren luego de la declaración de candidatura)</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/correo.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Envío por correspondencia de material de propaganda</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/avion-no.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Propaganda aérea como con un lienzo en un aeroplano, drones o helicópteros</div>
-          </div>
-        </div>
-      </div>
+      {% include precampana.html%}
     </section>
 
     <section class="section section3" id="section3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="section-title">Inicio de campaña</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/pago-si.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag si">Esta permitido</div>
-            <div class="si">Recibir fondos o aportes (Los aportes sólo se pueden hacer hacia la cuenta corriente única de los candidatos las que se abren luego de la declaración de candidatura)</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/correo.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Envío por correspondencia de material de propaganda</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/avion-no.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Propaganda aérea como con un lienzo en un aeroplano, drones o helicópteros</div>
-          </div>
-        </div>
-      </div>
+      {% include iniciocampana.html%}
     </section>
 
     <section class="section section4" id="section4">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="section-title">Medios y brigadistas</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/pago-si.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag si">Esta permitido</div>
-            <div class="si">Recibir fondos o aportes (Los aportes sólo se pueden hacer hacia la cuenta corriente única de los candidatos las que se abren luego de la declaración de candidatura)</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/correo.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Envío por correspondencia de material de propaganda</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/avion-no.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Propaganda aérea como con un lienzo en un aeroplano, drones o helicópteros</div>
-          </div>
-        </div>
-      </div>
+      {% include mediosybrigadistas.html%}
     </section>
 
     <section class="section section5" id="section5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="section-title">Propaganda total</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/pago-si.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag si">Esta permitido</div>
-            <div class="si">Recibir fondos o aportes (Los aportes sólo se pueden hacer hacia la cuenta corriente única de los candidatos las que se abren luego de la declaración de candidatura)</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/correo.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Envío por correspondencia de material de propaganda</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 col-md-offset-4"><img src="{{ "/img/avion-no.svg" | prepend: site.baseurl }}"></div>
-          <div class="col-md-6">
-            <div class="tag no">No esta permitido</div>
-            <div class="no">Propaganda aérea como con un lienzo en un aeroplano, drones o helicópteros</div>
-          </div>
-        </div>
-      </div>
+      {% include propagandatotal.html%}
     </section>
 
 

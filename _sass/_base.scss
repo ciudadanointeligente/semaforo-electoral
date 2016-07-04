@@ -193,7 +193,6 @@ pre {
 }
 
 section {
-  height: 100vh;
   font-size: 21px;
   font-weight: 100;
   background-color: #22A7F0;
@@ -322,7 +321,7 @@ section:nth-child(2) {
 }
 
 .si {
-    color: #46adad;
+    color: darken($green,20%);
 }
 
 .tag {
@@ -388,7 +387,6 @@ b, strong {
 
   section {
     display: block;
-    height: auto;
   }
 
   .section-title {
