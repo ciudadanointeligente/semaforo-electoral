@@ -10,42 +10,41 @@ layout: default
       <ul class="nav">
 
         <li role="presentation" class="active" id="home">
-          <a href="#section1">
-            <!-- <span class="nav__counter">Semáforo electoral</span> -->
+          <a href="#home">
             <p class="nav__body"></p>
           </a>
         </li>
 
         <li role="presentation">
-          <a href="#section2">
+          <a href="#precampana">
             <span class="nav__counter">Antes 24/07</span>
             <h3 class="nav__body">Precampaña</h3>
           </a>
         </li>
 
         <li role="presentation">
-          <a href="#section3">
+          <a href="#iniciocampana">
             <span class="nav__counter">25/07-23/08</span>
             <h3 class="nav__body">Inicio de campaña</h3>
           </a>
         </li>
         
         <li role="presentation">
-          <a href="#section4">
+          <a href="#mediosybrigadistas">
             <span class="nav__counter">24/08-22/09</span>
             <h3 class="nav__body">Medios y brigadistas</h3>
           </a>
         </li>
         
         <li role="presentation">
-          <a href="#section5">
+          <a href="#propagandatotal">
             <span class="nav__counter">23/09-20/10</span>
             <h3 class="nav__body">Propaganda total</h3>
           </a>
         </li>
         
         <li role="presentation">
-          <a href="#section6">
+          <a href="#denuncia">
             <span class="nav__counter"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></span>
             <h3 class="nav__body">Denuncia</h3>
           </a>
@@ -54,7 +53,7 @@ layout: default
       </ul>
     </nav>
 
-    <section class="section section1" id="section1">
+    <section class="section section1" id="home">
       <div class="container">
       <div class="row">
         <div class="col-md-7 hero">
@@ -65,29 +64,29 @@ layout: default
             <p>En semáforo electoral damos luz verde a la buena democracia e invitamos a la ciudadanía a frenar las irregularidades a través del canal de denuncias del Servel</p>
             <img src="{{ "/img/speaker.svg" | prepend: site.baseurl }}">
             <p>¿Encontraste una irregularidad?</p>
-            <a href="/" class="btn btn-lg"><h2>denuncia</h2></a>
+            <a href="#denuncia" class="btn btn-lg"><h2>denuncia</h2></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section2" id="section2">
+    <section class="section section2" id="precampana">
       {% include precampana.html%}
     </section>
 
-    <section class="section section3" id="section3">
+    <section class="section section3" id="iniciocampana">
       {% include iniciocampana.html%}
     </section>
 
-    <section class="section section4" id="section4">
+    <section class="section section4" id="medioybrigadistas">
       {% include mediosybrigadistas.html%}
     </section>
 
-    <section class="section section5" id="section5">
+    <section class="section section5" id="propagandatotal">
       {% include propagandatotal.html%}
     </section>
 
-    <section class="section section6" id="section6">
+    <section class="section section6" id="denuncia">
       {% include denuncia.html%}
     </section>
 
