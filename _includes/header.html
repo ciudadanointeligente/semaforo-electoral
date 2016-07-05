@@ -18,11 +18,11 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="#precampana">Precampaña</a>
-          <a class="page-link" href="#iniciocampana">Inicio Campaña</a>
-          <a class="page-link" href="#mediosybrigadistas">Medios y brigadistas</a>
-          <a class="page-link" href="#propagandatotal">Propaganda total</a>
-          <a class="page-link" href="#denuncia"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
+          <a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');">Precampaña</a>
+          <a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');">Inicio Campaña</a>
+          <a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-brigadistas', 'click');">Medios y brigadistas</a>
+          <a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');">Propaganda total</a>
+          <a class="page-link" href="#denuncia" onClick="ga('send', 'event', 'menu-denuncia', 'click');"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
           {% endif %}
         {% endfor %}
       </div>
