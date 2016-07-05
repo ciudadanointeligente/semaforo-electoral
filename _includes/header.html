@@ -14,11 +14,11 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="#section2">Precampaña</a>
-          <a class="page-link" href="#section3">Inicio Campaña</a>
-          <a class="page-link" href="#section4">Medios y brigadistas</a>
-          <a class="page-link" href="#section5">Propaganda total</a>
-          <a class="page-link" href="#section6"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
+          <a class="page-link" href="#precampana">Precampaña</a>
+          <a class="page-link" href="#iniciocampana">Inicio Campaña</a>
+          <a class="page-link" href="#mediosybrigadistas">Medios y brigadistas</a>
+          <a class="page-link" href="#propagandatotal">Propaganda total</a>
+          <a class="page-link" href="#denuncia"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
           {% endif %}
         {% endfor %}
       </div>
