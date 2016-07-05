@@ -462,12 +462,20 @@ p.bajada {
     border-bottom: 3px solid darken(white,5%);
 }
 
+.mark, mark{
+    background-color: rgba(255, 255, 255, 0.5);
+  } 
+
 /*Responsive utilities*/
 
 @media screen and (max-width: 1000px) {
   .wrapper {
     padding-top: 25px;
   }
+
+  .mark, mark{
+    background-color: transparent;
+  } 
 
   .nav__wrapper {
     display: none;

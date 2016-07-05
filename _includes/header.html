@@ -18,10 +18,10 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');">Precampaña</a>
-          <a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');">Inicio Campaña</a>
-          <a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-brigadistas', 'click');">Medios y brigadistas</a>
-          <a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');">Propaganda total</a>
+          <a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');">Hasta el 24 de julio</a>
+          <a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');">25 de julio al 23 de agosto</a>
+          <a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-y-brigadistas', 'click');">24 de agosto al 22 de septiembre</a>
+          <a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');">23 de septiembre al 20 de octubre</a>
           <a class="page-link" href="#denuncia" onClick="ga('send', 'event', 'menu-denuncia', 'click');"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
           {% endif %}
         {% endfor %}
