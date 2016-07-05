@@ -216,7 +216,7 @@ pre {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #4e4e4e;
-  position: relative; 
+  position: relative;
 }
 
 section {
@@ -276,7 +276,7 @@ section:nth-child(7) {
   }
 
   & {
-    margin: 0 0 100px 30px; 
+    margin: 0 0 100px 30px;
   }
   &__counter {
     font-size: 24px;
@@ -406,6 +406,10 @@ b, strong {
 
 .site-header, .section-title {
   display: none;
+}
+
+.site-title a {
+  color: #8fb300;
 }
 
 .sub-brand {
