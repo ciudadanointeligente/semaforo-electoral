@@ -465,12 +465,17 @@ p.bajada {
 /*Responsive utilities*/
 
 @media screen and (max-width: 1000px) {
+  .wrapper {
+    padding-top: 25px;
+  }
+
   .nav__wrapper {
     display: none;
   }
 
   .site-header {
     display: block;
+    background-color: #FFF;
   }
 
   section {
