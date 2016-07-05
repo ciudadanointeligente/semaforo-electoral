@@ -98,15 +98,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $green;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($green, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: darken($green, 10%);
         text-decoration: underline;
     }
 }
@@ -220,7 +220,7 @@ pre {
 section {
   font-size: 18px;
   font-weight: 100;
-  background-color: #22A7F0;
+  background-color: $red;
   padding: 60px 0;
   display: flex;
   justify-content: center;
@@ -257,6 +257,10 @@ section:nth-child(5) {
 
 section:nth-child(6) {
     border-left: 6px solid $green;
+}
+
+section:nth-child(7) {
+    color: white;
 }
 
 .nav {
