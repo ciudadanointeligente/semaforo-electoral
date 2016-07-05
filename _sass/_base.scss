@@ -408,6 +408,16 @@ b, strong {
   display: none;
 }
 
+.sub-brand {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sub-brand a {
+  color: #888;
+  cursor: pointer;
+}
+
 p.bajada {
     font-size: 14px;
 }
@@ -466,6 +476,7 @@ p.bajada {
   section:nth-child(2) {
     background-image: none;
     background: $green;
+    padding: 0px 0px 40px;
   }
 
   #section1 h1 {
