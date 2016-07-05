@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -89,7 +91,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: 600;
 }
 
 
@@ -204,7 +206,7 @@ pre {
 }
 
 .light {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /*Menu*/
@@ -219,14 +221,13 @@ pre {
 
 section {
   font-size: 18px;
-  font-weight: 100;
   background-color: $red;
   padding: 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #dcdcdc;
+  $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #f5f5f5;
   @for $i from 1 through length($colors) {
     &:nth-child(#{$i}) {
       background: nth($colors, $i)
@@ -237,7 +238,7 @@ section {
 section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
-    background-size: 65%;
+    background-size: 62%;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding: 0px 0;
