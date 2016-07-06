@@ -18,10 +18,10 @@
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');">Hasta el 24 de julio</a>
-          <a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');">25 de julio al 23 de agosto</a>
-          <a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-y-brigadistas', 'click');">24 de agosto al 22 de septiembre</a>
-          <a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');">23 de septiembre al 20 de octubre</a>
+          <a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</a>
+          <a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 25/07 al 23/08</a>
+          <a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-y-brigadistas', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 24/08 al 22/09</a>
+          <a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 23/09 al 20/10</a>
           <a class="page-link" href="#denuncia" onClick="ga('send', 'event', 'menu-denuncia', 'click');"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a>
           {% endif %}
         {% endfor %}
