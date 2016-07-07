@@ -8,9 +8,9 @@
 # Site settings
 title: Semáforo electoral
 email: info@ciudadanointeligente.org
-description: Campañas limpias y reglas parejas para todos enriquecen el proceso eleccionario. Los ciudadanos debemos cuidar y fortalecer nuestra democracia con información y fiscalización.
-baseurl: "https://ciudadanointeligente.github.io/semaforo-electoral/" # the subpath of your site, e.g. /blog
-url: "https://ciudadanointeligente.github.io/semaforo-electoral/" # the base hostname & protocol for your site
+description: "Campañas limpias y reglas parejas para todos enriquecen las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales."
+baseurl: "http://semaforoelectoral.cl/" # the subpath of your site, e.g. /blog
+url: "http://semaforoelectoral.cl" # the base hostname & protocol for your site
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
 
