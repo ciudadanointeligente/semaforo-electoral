@@ -1,6 +1,6 @@
 // SMOOTH SCROLLING SECTIONS
 $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
         var target = $(this.hash);
@@ -14,8 +14,8 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
-$(document).ready(function () {
+/*$(document).ready(function () {
         $(".site-nav .trigger a").click(function(event) {
           $(".navbar-collapse").collapse('hide');
         });
-      });
+      });*/

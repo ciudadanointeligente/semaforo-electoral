@@ -276,7 +276,7 @@ section:nth-child(7) {
   }
 
   & {
-    margin: 0 0 100px 30px;
+    margin: 0 0 0px 30px;
   }
   &__counter {
     font-size: 24px;
@@ -481,13 +481,32 @@ p.bajada {
 /*Responsive utilities*/
 
 @media screen and (max-width: 1000px) {
-  .wrapper {
-    padding-top: 25px;
+
+  body { padding-top: 50px; }
+
+  .navbar-default .navbar-brand {
+    color: #8fb300;
+  }
+
+  .navbar-brand {
+    height: 20px;
+    padding: 5px 15px;
+  }
+
+  .site-title .sub-brand a {
+    padding-left: 15px;
+  }
+
+  .navbar-nav {
+    padding-right: 20px;
+  }
+  .navbar {
+    margin-bottom: 0px;
   }
 
   .mark, mark{
     background-color: transparent;
-  } 
+  }
 
   .nav__wrapper {
     display: none;
@@ -521,8 +540,3 @@ p.bajada {
     display: none;
   }
 }
-
-@media screen and (min-width: 800px) {
-}
-
-
