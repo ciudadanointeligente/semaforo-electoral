@@ -54,6 +54,7 @@ header img {
     }
 
     @include media-query($on-palm) {
+        position: absolute;
         top: 40px;
         right: 10px;
         background-color: $background-color;
@@ -67,7 +68,7 @@ header img {
             height: 26px;
             line-height: 0;
             text-align: center;
-            position: fixed;
+            /*position: fixed;*/
             top: 20px;
             right: 5px;
 
