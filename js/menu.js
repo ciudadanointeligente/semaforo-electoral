@@ -19,3 +19,4 @@ $('a[href*=#]:not([href=#])').click(function() {
           $(".navbar-collapse").collapse('hide');
         });
       });*/
+
