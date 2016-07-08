@@ -450,7 +450,7 @@ p.bajada {
 }
 
 .denuncia h2 {
-    font-size: 36px;
+    font-size: 21px;
     font-weight: 100;
     margin-bottom: 0;
 }
@@ -472,9 +472,11 @@ p.bajada {
     border-bottom: 3px solid darken(white,5%);
 }
 
-.mark, mark{
-    background-color: rgba(255, 255, 255, 0.5);
-  } 
+.mark, mark {
+    background-color: rgba(224, 224, 224, 0.6);
+    color: #505050;
+    padding: 0;
+}
 
 /*Responsive utilities*/
 
