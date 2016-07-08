@@ -404,8 +404,18 @@ b, strong {
     font-weight: 500;
 }
 
+/*Header*/
+
 .site-header, .section-title {
   display: none;
+}
+
+.redes {
+    font-size: 14px;
+}
+
+.redes a {
+  color: darken($red,20%);
 }
 
 .site-title a {
