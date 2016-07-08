@@ -55,8 +55,8 @@ header img {
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 40px;
-        right: 10px;
+        top: 9px;
+        right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -64,13 +64,12 @@ header img {
 
         .menu-icon {
             display: block;
+            float: right;
             width: 36px;
             height: 26px;
             line-height: 0;
+            padding-top: 10px;
             text-align: center;
-            /*position: fixed;*/
-            top: 20px;
-            right: 5px;
 
             > svg {
                 width: 18px;
