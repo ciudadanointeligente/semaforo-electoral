@@ -478,6 +478,41 @@ p.bajada {
     padding: 0;
 }
 
+/*Navbar*/
+
+.navbar {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav {
+  float: right;
+  padding: 20px 0 5px;
+  background-color: white;
+  margin: 0 -15px;
+}
+
+.navbar-nav img {
+    max-width: 40px;
+}
+
+.navbar-nav li {
+    height: 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    margin-left: 15px;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
 /*Responsive utilities*/
 
 @media screen and (max-width: 1000px) {
@@ -485,7 +520,7 @@ p.bajada {
   body { padding-top: 50px; }
 
   .navbar-default .navbar-brand {
-    color: #8fb300;
+    color: $red;
   }
 
   .navbar-brand {
@@ -538,5 +573,11 @@ p.bajada {
 
   .denuncia {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+      background-color: white;
   }
 }
