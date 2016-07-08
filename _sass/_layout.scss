@@ -54,7 +54,6 @@ header img {
     }
 
     @include media-query($on-palm) {
-        position: fixed;
         top: 40px;
         right: 10px;
         background-color: $background-color;
