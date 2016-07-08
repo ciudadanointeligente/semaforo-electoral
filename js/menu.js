@@ -13,9 +13,3 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
-
-$(document).ready(function () {
-        $(".site-nav .trigger a").click(function(event) {
-          $(".navbar-collapse").collapse('hide');
-        });
-      });
