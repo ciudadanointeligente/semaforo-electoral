@@ -264,6 +264,10 @@ section:nth-child(7) {
     color: white;
 }
 
+section:nth-child(8) {
+    color: $grey-color;
+}
+
 .nav {
   &__wrapper {
     position: fixed;
