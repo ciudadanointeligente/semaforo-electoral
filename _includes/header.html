@@ -9,19 +9,19 @@
         <span class="icon-bar"></span>
       </button>
       <div class="site-title">
-        <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
-        <div class="sub-brand"><a href="http://ciudadanointeligente.org/" target="_blank">de Ciudadano Inteligente</a></div>
+        <a class="navbar-brand" href="{{ site.baseurl }}" onClick="ga('send', 'event', 'menu-movil-brand', 'click');">{{ site.title }}</a>
+        <div class="sub-brand"><a href="http://ciudadanointeligente.org/" target="_blank" onClick="ga('send', 'event', 'menu-movil-subbrand', 'click');">de Ciudadano Inteligente</a></div>
       </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse text-right" id="bs-example-navbar-collapse-1">
       <ul class="navbar-nav list-unstyled">
-        <li><a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-precampaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</a></li>
-        <li><a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-inicio-campaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 25/07 al 23/08</a></li>
-        <li><a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-medios-y-brigadistas', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 24/08 al 22/09</a></li>
-        <li><a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-propaganda-total', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 23/09 al 20/10</a></li>
-        <li><a class="page-link" href="#denuncia" onClick="ga('send', 'event', 'menu-denuncia', 'click');"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a></li>
+        <li><a class="page-link" href="#precampana" onClick="ga('send', 'event', 'menu-movil-precampaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</a></li>
+        <li><a class="page-link" href="#iniciocampana" onClick="ga('send', 'event', 'menu-movil-inicio-campaña', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 25/07 al 23/08</a></li>
+        <li><a class="page-link" href="#mediosybrigadistas" onClick="ga('send', 'event', 'menu-movil-medios-y-brigadistas', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 24/08 al 22/09</a></li>
+        <li><a class="page-link" href="#propagandatotal" onClick="ga('send', 'event', 'menu-movil-propaganda-total', 'click');"><i class="fa fa-calendar" aria-hidden="true"></i> 23/09 al 20/10</a></li>
+        <li><a class="page-link" href="#denuncia" onClick="ga('send', 'event', 'menu-movil-denuncia', 'click');"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

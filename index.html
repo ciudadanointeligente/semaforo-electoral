@@ -16,40 +16,39 @@ layout: default
         </li>
 
         <li role="presentation">
-          <a href="#precampana">
+          <a href="#precampana" onclick="ga('send', 'event', 'menu-desktop-precampaña', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</span>
             <h3 class="nav__body">Precampaña</h3>
           </a>
         </li>
 
         <li role="presentation">
-          <a href="#iniciocampana">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i>
-25/07 al 23/08</span>
+          <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
+            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 25/07 al 23/08</span>
             <h3 class="nav__body">Inicio de campaña</h3>
           </a>
         </li>
-        
+
         <li role="presentation">
-          <a href="#mediosybrigadistas">
+          <a href="#mediosybrigadistas" onclick="ga('send', 'event', 'menu-desktop-medios-brigadistas', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 24/08 al 22/09</span>
             <h3 class="nav__body">Medios y brigadistas</h3>
           </a>
         </li>
-        
+
         <li role="presentation">
-          <a href="#propagandatotal">
+          <a href="#propagandatotal" onclick="ga('send', 'event', 'menu-desktop-propaganda-total', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 23/09 al 20/10</span>
             <h3 class="nav__body">Propaganda total</h3>
           </a>
         </li>
-        
+
         <li role="presentation">
-          <a href="#denuncia">
+          <a href="#denuncia" onclick="ga('send', 'event', 'menu-desktop-denuncia', 'click');">
             <span class="nav__counter"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}> ¿Cómo denunciar?</span>
           </a>
         </li>
-        
+
       </ul>
     </nav>
 
@@ -58,7 +57,7 @@ layout: default
         <div class="row">
           <div class="col-md-8 hero">
             <h1>Semáforo electoral
-              <div class="sub-brand"><a href="http://ciudadanointeligente.org/" target="_blank">de Ciudadano Inteligente</a>
+              <div class="sub-brand"><a href="http://ciudadanointeligente.org/" onclick="ga('send', 'event', 'menu-desktop-subbrand', 'click');" target="_blank">de Ciudadano Inteligente</a>
               </div>
             </h1>
             <h4><mark>Campañas limpias y reglas parejas para todos enriquecen
@@ -76,7 +75,7 @@ layout: default
                 </a>
               </li>
               <li class="redes">
-                <a class="share-btn share-btn-branded share-btn-facebook" href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsemaforoelectoral.cl" title="Campañas limpias y reglas parejas para todos enriquecen las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales." target="_blank">
+                <a class="share-btn share-btn-branded share-btn-facebook" onclick="ga('send', 'event', 'facebook-share', 'click');" href="//www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsemaforoelectoral.cl" title="Campañas limpias y reglas parejas para todos enriquecen las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales." target="_blank">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -86,7 +85,7 @@ layout: default
             </ul>
             <p>En semáforo electoral damos luz verde a la buena democracia e invitamos a frenar las irregularidades a través de denuncias ciudadanas.</p>
             <img src="{{ "/img/speaker.svg" | prepend: site.baseurl }}">
-            <a href="#denuncia" class="btn btn-lg"><h2>¿Cómo denunciar?</h2></a>
+            <a href="#denuncia" onclick="ga('send', 'event', 'desktop-como-denunciar', 'click');" class="btn btn-lg"><h2>¿Cómo denunciar?</h2></a>
           </div>
         </div>
       </div>
@@ -111,16 +110,14 @@ layout: default
     <section class="section section6" id="denuncia">
       {% include denuncia.html%}
     </section>
-    
+
     <section class="section section7" id="aviso">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-<p>Semaforoelectoral.cl es un proyecto de la Fundación Ciudadano Inteligente  que se se enmarca en el contexto de las campañas para las Elecciones Municipales a celebrarse en Chile el mes de octubre del 2016. El presente proyecto no tiene relación alguna y tiene objetivos distintos al desarrollado por Actua.pe de igual nombre a propósito de las últimas Elecciones Presidenciales de Perú 2016.</p>
-    </div>
-    </div>
-    </div>
+            <p>Semaforoelectoral.cl es un proyecto de la Fundación Ciudadano Inteligente  que se se enmarca en el contexto de las campañas para las Elecciones Municipales a celebrarse en Chile el mes de octubre del 2016. El presente proyecto no tiene relación alguna y tiene objetivos distintos al desarrollado por Actua.pe de igual nombre a propósito de las últimas Elecciones Presidenciales de Perú 2016.</p>
+          </div>
+        </div>
+      </div>
     </section>
-
-
   </div>
