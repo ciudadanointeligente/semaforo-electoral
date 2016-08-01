@@ -15,7 +15,7 @@ layout: default
           </a>
         </li>
 
-        <li role="presentation">
+        <li role="presentation" class="hidden">
           <a href="#precampana" onclick="ga('send', 'event', 'menu-desktop-precampaña', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</span>
             <h3 class="nav__body">Precampaña</h3>
@@ -91,7 +91,7 @@ layout: default
       </div>
     </section>
 
-    <section class="section section2" id="precampana">
+    <section class="section section2 hidden" id="precampana">
       {% include precampana.html%}
     </section>
 
