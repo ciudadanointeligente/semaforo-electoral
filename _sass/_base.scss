@@ -217,7 +217,31 @@ pre {
   font-weight: 300;
   color: #4e4e4e;
   position: relative;
+
 }
+
+.corner-ribbon{
+  width: 200px;
+  background: #FF514E;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
 
 section {
   font-size: 18px;
@@ -226,6 +250,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+
 
   $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #f5f5f5;
   @for $i from 1 through length($colors) {
@@ -519,7 +544,7 @@ p.bajada {
 
 /*Responsive utilities*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 991px) {
 
   body { padding-top: 50px; }
 
@@ -580,8 +605,17 @@ p.bajada {
   }
 }
 
+@media screen and (max-width: 840px) {
+  section:nth-child(2) {
+    background-image: none;
+    background: $green;
+    padding: 50px 0px 40px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
       background-color: white;
   }
 }
+
