@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -89,7 +91,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: 600;
 }
 
 
@@ -98,15 +100,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $green;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($green, 15%);
     }
 
     &:hover {
-        color: $text-color;
+        color: darken($green, 10%);
         text-decoration: underline;
     }
 }
@@ -200,12 +202,11 @@ pre {
 }
 
 .hero {
-  padding: 50px 0;
-  text-shadow: 0px 0px 10px white;
+  padding: 50px 15px 0;
 }
 
 .light {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /*Menu*/
@@ -215,19 +216,43 @@ pre {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #4e4e4e;
-  position: relative; 
+  position: relative;
+
 }
+
+.corner-ribbon{
+  width: 200px;
+  background: #FF514E;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
 
 section {
   font-size: 18px;
-  font-weight: 100;
-  background-color: #22A7F0;
-  padding: 90px 0;
+  background-color: $red;
+  padding: 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #dcdcdc;
+
+  $colors: white, #E0E0E0, #EAEAEA, #f5f5f5, #EAEAEA, #f5f5f5;
   @for $i from 1 through length($colors) {
     &:nth-child(#{$i}) {
       background: nth($colors, $i)
@@ -238,10 +263,34 @@ section {
 section:nth-child(2) {
     background-color: #E0E0E0;
     background-image: url(../img/ciudad01.png);
-    background-size: 65%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center bottom;
     padding: 0px 0;
+}
+
+section:nth-child(3) {
+    border-left: 6px solid $red;
+}
+
+section:nth-child(4) {
+    border-left: 6px solid $orange;
+}
+
+section:nth-child(5) {
+    border-left: 6px solid $yellow;
+}
+
+section:nth-child(6) {
+    border-left: 6px solid $green;
+}
+
+section:nth-child(7) {
+    color: white;
+}
+
+section:nth-child(8) {
+    background-color: $grey-color;
 }
 
 .nav {
@@ -256,7 +305,7 @@ section:nth-child(2) {
   }
 
   & {
-    margin: 0 0 100px 30px; 
+    margin: 0 0 0px 30px;
   }
   &__counter {
     font-size: 24px;
@@ -326,7 +375,7 @@ section:nth-child(2) {
       }
 
       .nav__counter {
-        font-size: 48px;
+        font-size: 31px;
       }
       .nav__title {
         height: 40px;
@@ -337,6 +386,7 @@ section:nth-child(2) {
         height: 100px;
         opacity: 1;
         overflow: visible;
+        margin-top: 10px;
       }
     }
 
@@ -372,10 +422,10 @@ a .nav__counter {
 }
 
 .section .row {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-#section1 .row {
+#home .row {
     margin-bottom: 0px;
 }
 
@@ -383,8 +433,32 @@ b, strong {
     font-weight: 500;
 }
 
+/*Header*/
+
 .site-header, .section-title {
   display: none;
+}
+
+.redes {
+    font-size: 14px;
+}
+
+.redes a {
+  color: darken($red,20%);
+}
+
+.site-title a {
+  color: #8fb300;
+}
+
+.sub-brand {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sub-brand a {
+  color: #888;
+  cursor: pointer;
 }
 
 p.bajada {
@@ -405,9 +479,9 @@ p.bajada {
 }
 
 .denuncia h2 {
-    font-size: 45px;
+    font-size: 21px;
     font-weight: 100;
-    margin-top: -15px;
+    margin-bottom: 0;
 }
 
 .denuncia img {
@@ -419,6 +493,7 @@ p.bajada {
     width: 100%;
     border-bottom: 2px solid #FFA9A7;
     color: $red;
+    padding: 10px 13px 14px;
 }
 
 .denuncia a.btn:hover {
@@ -426,27 +501,121 @@ p.bajada {
     border-bottom: 3px solid darken(white,5%);
 }
 
+.mark, mark {
+    background-color: rgba(224, 224, 224, 0.6);
+    color: #505050;
+    padding: 0;
+}
+
+/*Navbar*/
+
+.navbar {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav {
+  float: right;
+  padding: 20px 0 5px;
+  background-color: white;
+  margin: 0 -15px;
+}
+
+.navbar-nav img {
+    max-width: 40px;
+}
+
+.navbar-nav li {
+    height: 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    margin-left: 15px;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
 /*Responsive utilities*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 991px) {
+
+  body { padding-top: 50px; }
+
+  .navbar-default .navbar-brand {
+    color: $red;
+  }
+
+  .navbar-brand {
+    height: 20px;
+    padding: 5px 15px;
+  }
+
+  .site-title .sub-brand a {
+    padding-left: 15px;
+  }
+
+  .navbar-nav {
+    padding-right: 20px;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+  .mark, mark{
+    background-color: transparent;
+  }
+
   .nav__wrapper {
     display: none;
   }
 
   .site-header {
     display: block;
+    background-color: #FFF;
   }
 
   section {
     display: block;
   }
 
+  section:nth-child(2) {
+    background-image: none;
+    background: $green;
+    padding: 0px 0px 40px;
+  }
+
+  #section1 h1 {
+    display: none;
+  }
+
+
   .section-title {
-    display: initial;
+    display: block;
+  }
+
+  .denuncia {
+    display: none;
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 840px) {
+  section:nth-child(2) {
+    background-image: none;
+    background: $green;
+    padding: 50px 0px 40px;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .navbar {
+      background-color: white;
+  }
+}
 

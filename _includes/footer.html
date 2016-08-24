@@ -1,38 +1,25 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li><a href="mailto:info@ciudadanointeligente.org?Subject=Semaforo%20electoral%20FCI" class="email-prensa" target="_top" onClick="ga('send', 'event', 'footer-email', 'click');"><i class="fa fa-envelope-o" aria-hidden="true"></i> Mándanos un correo</a></li>
+          <li><a href="//github.com/ciudadanointeligente" target="_blank" onClick="ga('send', 'event', 'footer-github', 'click');"><i class="fa fa-github-alt" aria-hidden="true"></i> Revisa nuestro código</a></li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
+      <div class="col-md-4">
+        <ul class="list-unstyled">
           <li>
-            {% include icon-github.html username=site.github_username %}
+            Un proyecto de <a href="//ciudadanointeligente.org" target="_blank" onClick="ga('send', 'event', 'footer-logo-fci', 'click');"><img src="//ckannet-storage.commondatastorage.googleapis.com/2015-01-22T13:31:59.187Z/logo-ciudadanoi-parafondooscuro.png" title="Fundación Ciudadano Inteligente" data-pin-nopin="true"></a>
           </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          <li><a href="//twitter.com/ciudadanoi" onClick="ga('send', 'event', 'footer-twitter', 'click');" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i> @Ciudadanoi</a></li>
+          <li><a href="//www.facebook.com/ciudadanointeligente" onClick="ga('send', 'event', 'footer-facebook', 'click');" target="blank"><i class="fa  fa-facebook" aria-hidden="true"></i> Ciudadano Inteligente</a></li>
+        </ul>
       </div>
     </div>
-
   </div>
-
 </footer>
