@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="120px" viewBox="0 0 160 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3">
+            <g id="Freight-transport-Copy-2" transform="translate(36.000000, 26.000000)">
+                <g id="color_33_" transform="translate(8.000000, 6.000000)" fill="#CCFF00">
+                    <path d="M78,26 L68,26 L60,2 C60,0.894 59.106,0 58,0 L56,0 L46,0 L2,0 C0.894,0 0,0.894 0,2 L0,50 C0,51.106 0.894,52 2,52 L56,52 C56.372,52 56.702,51.872 57,51.694 C57.298,51.872 57.628,52 58,52 L74,52 C75.106,52 80,47.106 80,46 L80,28 C80,26.894 79.106,26 78,26 L78,26 Z" id="Shape"></path>
+                </g>
+                <g id="outline_33_" fill="#505050">
+                    <path d="M38.562,48.724 C37.812,49.47 37.812,50.68 38.562,51.426 C39.312,52.172 40.526,52.172 41.276,51.426 L49.422,43.32 C50.17,42.574 50.17,41.364 49.422,40.618 L41.276,32.512 C40.526,31.766 39.312,31.766 38.562,32.512 C37.812,33.258 37.812,34.468 38.562,35.214 L43.372,40 L28,40 C24.688,40 22,37.314 22,34 L22,26 C22,24.894 21.106,24 20,24 C18.894,24 18,24.894 18,26 L18,34 C18,39.524 22.476,44 28,44 L43.31,44 L38.562,48.724 L38.562,48.724 Z M78,38 C79.106,38 80,37.106 80,36 C80,34.894 79.106,34 78,34 L74,34 C72.894,34 72,34.894 72,36 C72,37.106 72.894,38 74,38 L78,38 L78,38 Z M22,56 C18.688,56 16,58.686 16,62 C16,65.314 18.688,68 22,68 C25.312,68 28,65.314 28,62 C28,58.686 25.312,56 22,56 L22,56 Z M22,64 C20.894,64 20,63.106 20,62 C20,60.894 20.894,60 22,60 C23.106,60 24,60.894 24,62 C24,63.106 23.106,64 22,64 L22,64 Z M52,56 L32,56 C30.894,56 30,56.894 30,58 C30,59.106 30.894,60 32,60 L52,60 C53.106,60 54,59.106 54,58 C54,56.894 53.106,56 52,56 L52,56 Z M80,26 L76,26 C73.792,26 72,24.208 72,22 L68,8 C68,3.582 64.418,0 60,0 L2,0 C0.894,0 0,0.894 0,2 L0,58 C0,59.106 0.894,60 2,60 L12,60 C13.106,60 14,59.106 14,58 C14,56.894 13.106,56 12,56 L4,56 L4,4 L60,4 C62.208,4 64,5.792 64,8 L68,22 C68,26.418 71.582,30 76,30 L80,30 C82.208,30 84,31.792 84,34 L84,52 C84,54.208 82.208,56 80,56 L72,56 C70.894,56 70,56.894 70,58 C70,59.106 70.894,60 72,60 L80,60 C84.418,60 88,56.418 88,52 L88,34 C88,29.582 84.418,26 80,26 L80,26 Z M60,30 C62.208,30 64,28.208 64,26 L60,12 C60,9.792 58.208,8 56,8 L48,8 C45.792,8 44,9.792 44,12 L44,26 C44,28.208 45.792,30 48,30 L60,30 L60,30 Z M48,12 L56,12 L60,26 L48,26 L48,12 L48,12 Z M62,56 C58.688,56 56,58.686 56,62 C56,65.314 58.688,68 62,68 C65.312,68 68,65.314 68,62 C68,58.686 65.312,56 62,56 L62,56 Z M62,64 C60.894,64 60,63.106 60,62 C60,60.894 60.894,60 62,60 C63.106,60 64,60.894 64,62 C64,63.106 63.106,64 62,64 L62,64 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+        <text id="radio-" font-family="HelveticaNeue, Helvetica Neue" font-size="21" font-weight="normal" line-spacing="166" fill="#000000">
+            <tspan x="-115" y="123">radio </tspan>
+            <tspan x="-115" y="289">tv </tspan>
+            <tspan x="-115" y="455">diario </tspan>
+            <tspan x="-115" y="621">telefono </tspan>
+            <tspan x="-115" y="787">plaza o parque no autorizado </tspan>
+            <tspan x="-115" y="953">daño espacio publico </tspan>
+            <tspan x="-115" y="1119">correo </tspan>
+            <tspan x="-115" y="1285">avion </tspan>
+            <tspan x="-115" y="1451">brigadista con bandera </tspan>
+            <tspan x="-115" y="1617">afiche en espacio publico </tspan>
+            <tspan x="-115" y="1783">redes sociales </tspan>
+            <tspan x="-115" y="1949">gasto electoral </tspan>
+            <tspan x="-115" y="2115">recibir fondos </tspan>
+            <tspan x="-115" y="2281" font-family="ArialMT, Arial">Propaganda en infraestructura de servicios públicos</tspan>
+            <tspan x="-115" y="2447" font-family="ArialMT, Arial">Rayados, murales y elementos que se adhieran a paredes</tspan>
+            <tspan x="-115" y="2613" font-family="ArialMT, Arial">Carteles de un tamaño superior a 2m² en espacio público y 6m² en espacio privado</tspan>
+            <tspan x="-115" y="2779" font-family="ArialMT, Arial">cine</tspan>
+            <tspan x="-115" y="2945" font-family="ArialMT, Arial">Propaganda en espacio privado sin autorización</tspan>
+            <tspan x="-115" y="3111" font-family="ArialMT, Arial">financiamiento de empresas</tspan>
+            <tspan x="-115" y="3277" font-family="ArialMT, Arial">Superar límite al gasto electoral</tspan>
+        </text>
+    </g>
+</svg>
