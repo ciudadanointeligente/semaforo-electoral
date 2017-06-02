@@ -14,24 +14,10 @@ layout: default
           </a>
         </li>
 
-        <li role="presentation" class="hidden">
-          <a href="#precampana" onclick="ga('send', 'event', 'menu-desktop-precampaña', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta el 24/07</span>
-            <h3 class="nav__body">Precampaña</h3>
-          </a>
-        </li>
-
         <li role="presentation">
           <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 25/07 al 23/08</span>
             <h3 class="nav__body">Inicio de campaña</h3>
-          </a>
-        </li>
-
-        <li role="presentation">
-          <a href="#mediosybrigadistas" onclick="ga('send', 'event', 'menu-desktop-medios-brigadistas', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 24/08 al 22/09</span>
-            <h3 class="nav__body">Medios y brigadistas</h3>
           </a>
         </li>
 
@@ -56,12 +42,12 @@ layout: default
       <div class="container">
         <div class="row">
           <div class="col-md-8 hero">
-            <h1>Semáforo electoral
+            <h1>Semáforo electoral: Primarias 2017
               <div class="sub-brand"><a href="http://ciudadanointeligente.org/" onclick="ga('send', 'event', 'menu-desktop-subbrand', 'click');" target="_blank">de Ciudadano Inteligente</a>
               </div>
             </h1>
             <h4><mark>Campañas limpias y reglas parejas para todos enriquecen
-            las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales. <span class="light">Conoce los 4 periodos de campaña electoral y revisa qué permite la ley para cada uno de ellos.</mark>
+            las elecciones. No dejemos que se ensucie nuestra democracia; fiscalicemos entre todos las campañas electorales. <span class="light">Conoce los 2 periodos de campaña electoral y revisa qué permite la ley para cada uno de ellos.</mark>
             </span></h4>
           </div>
           <div class="col-md-3 col-md-offset-1 denuncia">
@@ -91,16 +77,8 @@ layout: default
       </div>
     </section>
 
-    <section class="section section2 hidden" id="precampana">
-      {% include precampana.html%}
-    </section>
-
     <section class="section section3" id="iniciocampana">
       {% include iniciocampana.html%}
-    </section>
-
-    <section class="section section4" id="mediosybrigadistas">
-      {% include mediosybrigadistas.html%}
     </section>
 
     <section class="section section5" id="propagandatotal">

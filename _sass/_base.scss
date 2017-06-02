@@ -274,23 +274,20 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-    border-left: 6px solid $orange;
+    border-left: 6px solid $green;
 }
 
 section:nth-child(5) {
-    border-left: 6px solid $yellow;
+    background: $red;
+    color: white;
 }
 
 section:nth-child(6) {
-    border-left: 6px solid $green;
+  background-color: $grey-color;
 }
 
 section:nth-child(7) {
     color: white;
-}
-
-section:nth-child(8) {
-    background-color: $grey-color;
 }
 
 .nav {
@@ -619,4 +616,3 @@ p.bajada {
       background-color: white;
   }
 }
-
