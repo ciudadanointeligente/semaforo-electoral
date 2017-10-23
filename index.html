@@ -13,18 +13,10 @@ layout: default
             <p class="nav__body"></p>
           </a>
         </li>
-
         <li role="presentation">
-          <a href="#precampana" onclick="ga('send', 'event', 'menu-desktop-precampaña', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta 21/08</span>
-            <h3 class="nav__body">Precampaña</h3>
-          </a>
-        </li>
-
-        <li role="presentation">
-          <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 21/08 a 20/09</span>
-            <h3 class="nav__body">Inicio de campaña</h3>
+          <a href="#propagandatotal" onclick="ga('send', 'event', 'menu-desktop-propaganda-total', 'click');">
+            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 20/10 al 16/11</span>
+            <h3 class="nav__body">Propaganda total</h3>
           </a>
         </li>
 
@@ -34,13 +26,21 @@ layout: default
             <h3 class="nav__body">Medios y Brigadistas</h3>
           </a>
         </li>
-        
         <li role="presentation">
-          <a href="#propagandatotal" onclick="ga('send', 'event', 'menu-desktop-propaganda-total', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 20/10 al 16/11</span>
-            <h3 class="nav__body">Propaganda total</h3>
+          <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
+            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 21/08 a 20/09</span>
+            <h3 class="nav__body">Inicio de campaña</h3>
           </a>
         </li>
+        <li role="presentation">
+          <a href="#precampana" onclick="ga('send', 'event', 'menu-desktop-precampaña', 'click');">
+            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Hasta 21/08</span>
+            <h3 class="nav__body">Precampaña</h3>
+          </a>
+        </li>
+
+
+
 
         <li role="presentation">
           <a href="#denuncia" onclick="ga('send', 'event', 'menu-desktop-denuncia', 'click');">
@@ -94,11 +94,11 @@ layout: default
         <section class="section section3" id="precampana">
       {% include precampana.html%}
     </section>
-    
+
         <section class="section section3" id="iniciocampana">
       {% include iniciocampana.html%}
     </section>
-    
+
     <section class="section section3" id="mediosybrigadistas">
       {% include mediosybrigadistas.html%}
     </section>
