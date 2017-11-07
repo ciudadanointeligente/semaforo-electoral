@@ -297,7 +297,7 @@ section:nth-child(7) {
 
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   & {
@@ -487,14 +487,26 @@ p.bajada {
 .denuncia a.btn {
     background: white;
     width: 100%;
-    border-bottom: 2px solid #FFA9A7;
     color: $red;
     padding: 10px 13px 14px;
 }
 
 .denuncia a.btn:hover {
-    background: darken(white,5%);
-    border-bottom: 3px solid darken(white,5%);
+    background: darken(white,8%);
+}
+
+.denuncia a.listado_denuncias  {
+    background: #FF514E;
+    width: 100%;
+    border: 2px solid #FFA9A7;
+    color: #FFFFFF;
+    padding: 10px 13px 14px;
+    margin-top: 6px;
+}
+
+.denuncia a.listado_denuncias:hover {
+    background: darken(#FF514E, 5%);
+    border: 2px solid #FFFFFF;
 }
 
 .mark, mark {
