@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $green;
+    color: darken($green, 15%);
     text-decoration: none;
 
     &:visited {
@@ -301,7 +301,7 @@ section:nth-child(7) {
   }
 
   & {
-    margin: 0 0 0px 30px;
+    margin: 20px 0 0px 30px;
   }
   &__counter {
     font-size: 24px;
@@ -467,7 +467,7 @@ p.bajada {
     background: $red;
     color: white;
     height: 100vh;
-    padding: 40px 15px;
+    padding: 110px 15px;
 }
 
 .denuncia p {
