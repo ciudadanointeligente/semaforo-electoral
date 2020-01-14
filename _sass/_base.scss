@@ -550,6 +550,12 @@ p.bajada {
   background-color: white;
 }
 
+.disclaimer{
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+}
+
 /*Responsive utilities*/
 
 @media screen and (max-width: 991px) {
@@ -612,6 +618,7 @@ p.bajada {
   .denuncia {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 840px) {
