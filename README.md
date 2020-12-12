@@ -32,10 +32,11 @@ En semáforo electoral damos luz verde a la buena democracia e invitamos a frena
 
 ## Guía de usuario
 ---
-La plataforma de Semáforo electoral cuenta con 3 secciones:
-Fechas relevantes: Donde podemos revisar las fechas importantes y todo lo que debes saber sobre el plebiscito de Chile por una nueva Constitución, dividiendo la información en Periodo de pre-progranda electoral y Periodo propaganda electoral y segmentandola por los colores del semáforo verde, ambar y rojo sobre lo que está permitido hacer en relación a la propaganda electoral de acuerdo a la fecha que se haya establecido.
+La plataforma de Semáforo electoral cuenta con secciones como:
 
-¿Cómo denunciar?: Este espacio nos brinda información y acceso a diferentes portales en donde podremos denunciar aquellas irregularidades y aun mas importante conocer sobre las consideraciones a tomar antes de hacer uns denuncia.
+- Fechas relevantes: Donde podemos revisar las fechas importantes y todo lo que debes saber sobre el plebiscito de Chile por una nueva Constitución, dividiendo la información en Periodo de pre-progranda electoral y Periodo propaganda electoral y segmentandola por los colores del semáforo verde, ambar y rojo sobre lo que está permitido hacer en relación a la propaganda electoral de acuerdo a la fecha que se haya establecido.
+
+- ¿Cómo denunciar?: Este espacio nos brinda información y acceso a diferentes portales en donde podremos denunciar aquellas irregularidades y aun mas importante conocer sobre las consideraciones a tomar antes de hacer uns denuncia.
 
 ![smartmockups_kikxbhbw](https://user-images.githubusercontent.com/60905476/101965250-f8a25280-3be1-11eb-92ab-3b3a473f2b1d.gif)
 
