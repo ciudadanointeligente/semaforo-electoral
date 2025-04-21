@@ -3,93 +3,98 @@ layout: default
 ---
 
 
-  <div class="wrapper">
+<div class="wrapper">
 
-    <nav class="nav__wrapper" id="navbar-example">
-      <ul class="nav">
+  <nav class="nav__wrapper" id="navbar-example">
+    <ul class="nav">
 
-        <li role="presentation" class="active" id="home">
-          <a href="#home">
-            <p class="nav__body"></p>
-          </a>
-        </li>
-        <li role="presentation">
-          <a href="#fechassrelevantes" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Fechas relevantes</span>
-            <h3 class="nav__body">Conoce las fechas del Plebiscito Constitucional 2023</h3>
-          </a>
-        </li>
-        <!-- <li role="presentation">
+      <li role="presentation" class="active" id="home">
+        <a href="#home">
+          <p class="nav__body"></p>
+        </a>
+      </li>
+      <li role="presentation">
+        <a href="#fechassrelevantes" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
+          <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> Fechas relevantes</span>
+          <h3 class="nav__body">Conoce las fechas del Plebiscito Constitucional 2023</h3>
+        </a>
+      </li>
+      <!-- <li role="presentation">
           <a href="#propagandatotal" onclick="ga('send', 'event', 'menu-desktop-propaganda-total', 'click');">
             <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 10/02 hasta 11/03</span>
             <h3 class="nav__body">Primer período de propaganda electoral</h3>
           </a>
         </li> -->
-        <li role="presentation">
-          <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
-            <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 07/11 hasta 14/12</span>
-            <h3 class="nav__body">Período de propaganda electoral</h3>
-          </a>
-        </li>
+      <li role="presentation">
+        <a href="#iniciocampana" onclick="ga('send', 'event', 'menu-desktop-inicio-campaña', 'click');">
+          <span class="nav__counter"><i class="fa fa-calendar" aria-hidden="true"></i> 07/11 hasta 14/12</span>
+          <h3 class="nav__body">Período de propaganda electoral</h3>
+        </a>
+      </li>
 
 
 
 
-        <li role="presentation">
-          <a href="#denuncia" onclick="ga('send', 'event', 'menu-desktop-denuncia', 'click');">
-            <span class="nav__counter"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}> ¿Cómo denunciar?</span>
-          </a>
-        </li>
+      <li role="presentation">
+        <a href="#denuncia" onclick="ga('send', 'event', 'menu-desktop-denuncia', 'click');">
+          <span class="nav__counter"><img src={{ "/img/denuncia.svg" | prepend: site.baseurl }}> ¿Cómo denunciar?</span>
+        </a>
+      </li>
 
-      </ul>
-    </nav>
+    </ul>
+  </nav>
 
-    <section class="section section1" id="home">
+  <section class="section section1" id="home">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 hero">
-            <h1>Semáforo electoral: Plebiscito Constitucional 2023
-              <div class="sub-brand"><a href="http://ciudadaniai.org/" onclick="ga('send', 'event', 'menu-desktop-subbrand', 'click');" target="_blank">de Ciudadanía Inteligente</a>
-              </div>
-            </h1>
-            <h4><mark>Campañas limpias y reglas parejas para toda la ciudadanía enriquecen
-            las elecciones. Conoce los períodos de campaña electoral y revisa qué permite la ley.</mark>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 hero">
+          <h1>Semáforo electoral: Calendario 2025
+            <div class="sub-brand"><a href="http://ciudadaniai.org/"
+                onclick="ga('send', 'event', 'menu-desktop-subbrand', 'click');" target="_blank">de Ciudadanía
+                Inteligente</a>
+            </div>
+          </h1>
+          <h4><mark>Campañas limpias y reglas parejas para toda la ciudadanía enriquecen
+              las elecciones. Conoce los períodos de campaña electoral y revisa qué permite la ley.</mark>
             </span></h4>
-          </div>
-          <div class="col-md-3 col-md-offset-1 denuncia">
-            <p>En semáforo electoral damos luz verde a la buena democracia e invitamos a frenar las irregularidades a través de denuncias ciudadanas.</p>
-            <img src="{{ "/img/speaker.svg" | prepend: site.baseurl }}">
-            <a href="#denuncia" onclick="ga('send', 'event', 'desktop-como-denunciar', 'click');" class="btn btn-lg">¿Cómo denunciar?</a>
-          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1 denuncia">
+          <p>En semáforo electoral damos luz verde a la buena democracia e invitamos a frenar las irregularidades a
+            través de denuncias ciudadanas.</p>
+          <img src="{{ " /img/speaker.svg" | prepend: site.baseurl }}">
+          <a href="#denuncia" onclick="ga('send', 'event', 'desktop-como-denunciar', 'click');" class="btn btn-lg">¿Cómo
+            denunciar?</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section section3" id="fechassrelevantes">
-      {% include fechasrelevantes.html%}
-    </section>
-    <!-- <section class="section section5" id="propagandatotal">
+  <section class="section section3" id="fechassrelevantes">
+    {% include fechasrelevantes.html%}
+  </section>
+  <!-- <section class="section section5" id="propagandatotal">
 
     </section> -->
-    <section class="section section3" id="iniciocampana">
-      {% include iniciocampana.html%}
-    </section>
+  <section class="section section3" id="iniciocampana">
+    {% include iniciocampana.html%}
+  </section>
 
 
 
 
-    <section class="section section6" id="denuncia">
-      {% include denuncia.html%}
-    </section>
+  <section class="section section6" id="denuncia">
+    {% include denuncia.html%}
+  </section>
 
-    <section class="section section7" id="aviso">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-4">
-            <p>Semaforoelectoral.cl es un proyecto de Ciudadanía Inteligente que nació el 2016 y que se enmarca en el contexto de las campañas electorales.</p>
-          </div>
+  <section class="section section7" id="aviso">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+          <p>Semaforoelectoral.cl es un proyecto de Ciudadanía Inteligente que nació el 2016 y que se enmarca en el
+            contexto de las campañas electorales.</p>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>
