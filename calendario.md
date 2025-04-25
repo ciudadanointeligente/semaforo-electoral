@@ -1,0 +1,83 @@
+MIÉRCOLES 30 DE ABRIL 
+La lista final 
+Vence el plazo para declarar las candidaturas a Presidente de la República y parlamentarios que participarán en las elecciones primarias.
+
+MIÉRCOLES 18 DE JUNIO
+Si vas a militar hazlo antes de esta fecha
+Vence el plazo para que las personas que quieran ser candidatas de un partido o lista de partidos se inscriban a un partido político.
+
+SÁBADO 28 DE JUNIO
+Domicilio electoral
+Vence el plazo para que las personas puedan hacer la solicitud de cambio de domicilio electoral en www.servel.cl 
+
+DOMINGO 29 DE JUNIO
+Votaciones primarias para candidatos Presidenciales y Parlamentarios.
+
+LUNES 18 DE AGOSTO
+Cierre de inscripciones
+Vence el plazo para que los partidos políticos o candidatos independientes presenten la declaración de la candidatura. Además, el Servel publica el monto máximo de aportes de origen privado permitido para campañas.
+
+JUEVES 21 DE AGOSTO
+Plazo para entrega de documentos y declaración de patrimonio
+Vence el plazo para que los partidos políticos, pactos electorales, los propios candidatos o los cinco ciudadanos patrocinantes de una candidatura independiente presenten la documentación requerida en el artículo 6 de la ley N° 18.700 ante el Servicio Electoral. 
+
+Vence el plazo máximo para que los candidatos declarados realicen y presenten la declaración de patrimonios e intereses, según lo determina la Ley N°18.700.
+
+JUEVES 28 DE AGOSTO
+El Consejo del Servel dictará una resolución que notificará al correo electrónico de los partidos políticos y los candidatos independientes si la declaración de candidatura fue aceptada o rechazada en función de los requisitos señalados en los artículos 25, 48 y 50 de la Constitución Política de la República, y los incisos cuarto y quinto del artículo 4 de la Ley N° 18.700.
+
+LUNES 1 DE SEPTIEMBRE
+Plazo corrección de candidaturas rechazadas
+Vence el plazo para que los partidos, cuya totalidad de declaraciones de candidaturas a diputado o senador hayan sido rechazadas en conformidad a lo declarado en la letra b) del artículo 19 de la ley N°18.700, presenten una corrección de sus declaraciones ante el Servel.
+
+MARTES 2 DE SEPTIEMBRE
+Plazo reclamación
+Vence el plazo para que los partidos políticos y los candidatos independientes reclamen ante el Tribunal Calificador de Elecciones. Este tribunal fallará en el término de diez días contados desde que se interpuso el reclamo.
+
+JUEVES 4 DE SEPTIEMBRE
+Quién será candidato/a
+Servel publica en su sitio electrónico la aceptación o rechazo de cada una de las declaraciones de candidaturas a parlamentarios declaradas por cada partido político, pacto electoral o candidatura independiente.
+
+VIERNES 5 DE SEPTIEMBRE
+Inscripción oficial
+El Director del Servel inscribe las candidaturas, referidas en el artículo 20 de la Ley N°18.700.
+
+SÁBADO 6 DE SEPTIEMBRE
+Vence el plazo para que el Servel dicte una nueva resolución aceptando o rechazando las declaraciones nuevas o la totalidad de declaraciones presentadas por los partidos.
+
+17 DE SEPTIEMBRE
+Comienzan las campañas 
+Se inicia el periodo de propaganda electoral por medio de prensa, radioemisoras, redes sociales y plataformas digitales, o por medio de activistas o brigadistas en la vía pública mediante lienzos, banderas o material impreso u otros objetos informativos.
+
+Las radioemisoras deberán transmitir seis spots diarios con información electoral de utilidad para la ciudadanía, cuyo contenido determinará el Servel.
+
+VIERNES 17 DE OCTUBRE
+Comienza la franja
+Comienza la emisión de la franja de propaganda gratuita en canales de televisión de libre recepción. 
+
+Inicio del periodo de propaganda electoral en espacios públicos autorizados y espacios privados mediante carteles, afiches o letreros.
+
+SÁBADO 1 DE NOVIEMBRE
+Último plazo para publicar encuestas
+Vence el plazo para divulgar resultados de encuestas de opinión públicas referidas a preferencias electorales.
+
+El Servel entregará a los partidos políticos, a los pactos electorales y a los candidatos independientes, facsímiles de las cédulas.
+
+Vence plazo para que partidos políticos y candidatos independientes declaren la ubicación de sedes ante la respectiva junta electoral.
+
+JUEVES 13 DE NOVIEMBRE
+Término de la propaganda
+Término de todo tipo de propaganda electoral e información electoral de utilidad para la ciudadanía, incluyendo la franja gratuita de propaganda en canales de televisión de libre recepción.
+
+VIERNES 14 DE NOVIEMBRE
+Desde las cero horas se prohíbe toda manifestación o reunión pública de carácter electoral y permanecerán cerradas las secretarías de propaganda y toda oficina u organización destinada a atender electores.
+
+DOMINGO 16 DE NOVIEMBRE
+Llegó el día
+Se lleva a cabo la elección general de Presidente/a, Senadores y Diputados.
+
+Al terminar los escrutinios, el Presidente del Consejo Directivo del Servel comunicará los boletines parciales y finales con los resultados que se vayan produciendo.
+
+DOMINGO 14 DE DICIEMBRE
+Segunda vuelta presidencial
+En caso (altamente probable) que ninguna candidatura alcance el 50%+1 de los votos válidamente emitidos, se realizará una segunda vuelta que definirá quién será el próximo Presidente o Presidenta de la República. 
